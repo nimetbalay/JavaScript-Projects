@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimet Balay - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AB</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Nimet Balay</h1>
+                <h2>Web Developer & Designer</h2>
+                <p>Creating beautiful web experiences</p>
+                <button class="cta-button">View My Work</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP7zBwf2QKnnEWlHuttpRPlaotyB5_7OdtPw&s" alt="Nimet Balay">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm Nimet, a passionate web developer with 5 years of experience in creating responsive and user-friendly websites. My journey in web development started when I was in college, and since then, I've been constantly learning and improving my skills.</p>
+                    <p>I specialize in front-end development, with expertise in HTML, CSS, JavaScript, and various frameworks like React and Vue. I also have experience in back-end development using Node.js and Express.</p>
+                    <p>When I'm not coding, you can find me hiking, reading books, or experimenting with new recipes in the kitchen.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8MolffnXO47Ua7gFiRMwpl93cT5EdgVMTA&s" alt="Project 1">
+                    <h3>E-commerce Website</h3>
+                    <p>A fully responsive e-commerce platform built with React and Node.js.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Project</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRXxfn1j1vKFy8yJeBGl2AS6Dcah-lKgHofg&s" alt="Project 2">
+                    <h3>Task Management App</h3>
+                    <p>A task manager application with drag-and-drop functionality using JavaScript.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Project</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFv9rKIJfzlypnR5oA1oi_sepNpnFcWh_3aw&s" alt="Project 3">
+                    <h3>Weather Dashboard</h3>
+                    <p>A weather application that fetches data from an API and displays it in a user-friendly interface.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Project</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Front-end</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3/SASS</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Back-end</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>MongoDB</li>
+                        <li>RESTful APIs</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Webpack</li>
+                        <li>Responsive Design</li>
+                        <li>UI/UX Principles</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>johndoe@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 234 567 8900</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>New York, USA</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nimet Balay. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
