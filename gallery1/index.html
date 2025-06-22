@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Lightbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <p>Click on any image to open the lightbox gallery.</p>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://picsum.photos/id/237/300/200" alt="Image 1" onclick="openLightbox();currentSlide(1)">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/id/238/300/200" alt="Image 2" onclick="openLightbox();currentSlide(2)">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/id/239/300/200" alt="Image 3" onclick="openLightbox();currentSlide(3)">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/id/240/300/200" alt="Image 4" onclick="openLightbox();currentSlide(4)">
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close cursor" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <div class="slide">
+                <img src="https://picsum.photos/id/237/800/600" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/238/800/600" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/239/800/600" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/240/800/600" alt="Image 4">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
